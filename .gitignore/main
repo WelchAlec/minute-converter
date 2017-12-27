@@ -1,0 +1,11 @@
+import java.util.*;
+class minuteConverter{
+  public static void main (String [] args){
+    double minutes, hours;
+    Scanner scanner = scanner (System.in);
+    System.out.println("Input minutes: ");
+    minutes = scanner.nextDouble();
+    hours = minutes / 60;
+    System.out.println(hours + " hours");
+  }
+}
